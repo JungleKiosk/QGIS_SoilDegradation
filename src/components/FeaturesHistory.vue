@@ -1,9 +1,15 @@
 <script>
 
+import { marker_points } from "./../data/markers.js";
+import AppMap from "./AppMap.vue";
+
 export default {
+    components: {
+        AppMap
+    },
     data() {
         return {
-
+            marker_points: marker_points
         };
     }
 }
@@ -30,21 +36,27 @@ export default {
                     Today it includes a large agricultural area and a system of protected semi-natural areas, in particular
                     wetlands, such as the Valle della Canna, the Bardello, the historic pine forest of S. Vitale, which
                     together with the Valle di Comacchio and the Pialasse della Baiona are managed from the Po Delta
-                    Regional Park. <br>
-                    <hr>
+                    Regional Park.
+
+                    <AppMap :marker_points="marker_points"></AppMap>
+
                     The protection regime is due to the presence of one of the largest populations of aquatic birds in
                     Europe linked to the deltaic environments of the Po Delta (Birds Directive 79/409/EEC), to the presence
                     of a large number of habitats of Community interest (Directive Habitat 92/43/EEC) linked mainly to
                     brackish environments typical of lagoon ecosystems, and
                     rare species with a critical conservation status, or threatened with extinction. <br>
-                    <hr>
+                </p>
+
+
+                <p>
                     It is evident, from the geographical location and from the complex artificial hydrography dictated
                     from the need to keep this area dry, that the challenges related to cultivation
                     are many, and that the availability of fresh water for irrigation, as well as the presence of fresh
                     water bodies, both superficial and deep, are essential to counteract salinization and maintain
                     agriculture.
-
                 </p>
+
+
             </div>
         </div>
 
@@ -73,5 +85,6 @@ export default {
 .thon_python {
     color: #3da8ff;
     font-weight: bold;
-}</style>
+}
+</style>
 
