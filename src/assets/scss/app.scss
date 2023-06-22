@@ -31,3 +31,15 @@ body {
     border-radius: 30px;
     background-color: $bg_body;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid #000;
+}

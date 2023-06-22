@@ -9,13 +9,14 @@ import SoilDegradation from './components/SoilDegradation.vue';
 import BannerCards from './components/BannerCards.vue';
 import Salinity from './components/Salinity.vue';
 import Compaction from './components/Compaction.vue';
+import Agronomic from './components/Agronomic.vue';
 
 export default {
   data() {
     return {
     };
   },
-  components: { AppHeader, Jumbotron, FeaturesHistory, SoilDegradation, BannerCards, Salinity, Compaction },
+  components: { AppHeader, Jumbotron, FeaturesHistory, SoilDegradation, BannerCards, Salinity, Compaction, Agronomic },
   computed: {
     linksData() {
       return links;
@@ -33,6 +34,7 @@ export default {
   <BannerCards :links="linksData"></BannerCards>
   <Salinity></Salinity>
   <Compaction></Compaction>
+  <Agronomic></Agronomic>
 </template>
 
 <style></style>

@@ -100,7 +100,7 @@ export default {
                         <tbody>
                             <tr>
                                 <td>&lt; 2</td>
-                                <td>Non saline</td>
+                                <td>Not saline</td>
                             </tr>
                             <tr>
                                 <td>2.1 - 4.0</td>
@@ -194,16 +194,5 @@ a {
     text-decoration: underline;
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #000;
-}
-
-th,
-td {
-    padding: 8px;
-    border: 1px solid #000;
-}
 </style>
 
