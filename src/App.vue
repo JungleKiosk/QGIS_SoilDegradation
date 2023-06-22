@@ -1,18 +1,15 @@
 <script>
 
 import AppHeader from './components/AppHeader.vue';
+import Jumbotron from './components/Jumbotron.vue';
+import FeaturesHistory from './components/FeaturesHistory.vue';
 
 export default {
   data() {
     return {
     };
   },
-  components: { AppHeader },
-  computed: {
-    linksData() {
-      return links;
-    }
-  }
+  components: { AppHeader, Jumbotron, FeaturesHistory },
 }
 
 
@@ -20,8 +17,8 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
+  <Jumbotron></Jumbotron>
+  <FeaturesHistory></FeaturesHistory>
 </template>
 
-<style>
-
-</style>
+<style></style>
