@@ -46,8 +46,6 @@ export default {
                     brackish environments typical of lagoon ecosystems, and
                     rare species with a critical conservation status, or threatened with extinction. <br>
                 </p>
-
-
                 <p>
                     It is evident, from the geographical location and from the complex artificial hydrography dictated
                     from the need to keep this area dry, that the challenges related to cultivation
@@ -63,28 +61,4 @@ export default {
     </div>
 </template>
 
-
-
-
-<style>
-.q_qgis {
-    color: #ffab1a;
-    font-weight: bold;
-}
-
-.gis_qgis {
-    color: #bddf41;
-    font-weight: bold;
-}
-
-.py_python {
-    color: #fcd648;
-    font-weight: bold;
-}
-
-.thon_python {
-    color: #3da8ff;
-    font-weight: bold;
-}
-</style>
 

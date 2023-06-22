@@ -26,8 +26,7 @@ export default {
                         target="_blank">
                         "AGROWETLANDS II – Smart water and soil salinity management in agro-wetlands"
                     </a>
-                    , attivo dal
-                    settembre 2016 al giugno 2020. <br>
+                    active from September 2016 to June 2020. <br>
                     The project operated at the farm
                     Agrisfera, partner of the project itself, developing a Decision Support
                     System, called Smart Agrowetlands, dedicated to the management of irrigation in areas
