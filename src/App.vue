@@ -1,9 +1,25 @@
 <script>
 
+import AppHeader from './components/AppHeader.vue';
+
+export default {
+  data() {
+    return {
+    };
+  },
+  components: { AppHeader },
+  computed: {
+    linksData() {
+      return links;
+    }
+  }
+}
+
+
 </script>
 
 <template>
-  <h1>Soil Degradation</h1>
+  <AppHeader></AppHeader>
 </template>
 
 <style>
