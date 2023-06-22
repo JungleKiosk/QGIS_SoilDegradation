@@ -53,7 +53,7 @@ export default {
         <div class="row justify-content-center">
             <div class="col-12 col-lg-6">
 
-                <l-map style="height: 300px;" :zoom="zoom" :center="center">
+                <l-map style="height: 400px;" :zoom="zoom" :center="center">
                     <l-tile-layer :url="url_osm" :attribution="attribution"></l-tile-layer>
 
                     <template v-for="(coordinate, index) in marker_points" :key="index">
@@ -68,15 +68,15 @@ export default {
                             <l-popup class="popup">
                                 <div>
                                     <!-- <p>id: {{ coordinate.id }}</p> -->
-                                    <p class="p-1">Place: {{ coordinate.place }}</p>
                                     <div class="row align-items-center row_images">
-                                        <div class="col-3 img_slider"
+                                        <div class="col-6 my-2 img_slider"
                                             v-for="(image, imageIndex) in coordinate.img_marker_card" :key="imageIndex">
                                             <img :src="getImagePath(image.img_card)" :alt="image.img_card" class="img-fluid"
                                                 @click="selectImage(image)" />
                                         </div>
                                     </div>
                                     <img class="p-2 rounded-5" :src="getImagePath(selectedMarker?.img_popup)" alt="img" />
+                                    <p class="p-1">{{ coordinate.place }}</p>
                                     <p class="py-1">Coordinates: {{ coordinate.lat }} , {{ coordinate.long }}</p>
                                 </div>
                             </l-popup>
