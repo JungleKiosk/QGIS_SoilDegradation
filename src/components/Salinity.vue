@@ -135,7 +135,7 @@ export default {
                     most of the farm area does not present a danger of crop depression, for i
                     recorded levels of soil EC. In fact we find surfaces belonging to the second class of EC, therefore
                     values that are not too high. <br>
-                    Also the pH seems to be not excessively alkaline, with values between 7.3 and 7.9
+                    The pH values tend to be alkaline, with values between 7.3 and 7.9
                     <div class="row justify-content-center my-3">
                         <div class="col-12 col-lg-12 col-md-8 ">
                             <img class="rounded-3" src="./../assets/img/qgis/usda/ph_0010.png" alt="">
