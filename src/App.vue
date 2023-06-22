@@ -7,13 +7,14 @@ import Jumbotron from './components/Jumbotron.vue';
 import FeaturesHistory from './components/FeaturesHistory.vue';
 import SoilDegradation from './components/SoilDegradation.vue';
 import BannerCards from './components/BannerCards.vue';
+import Salinity from './components/Salinity.vue';
 
 export default {
   data() {
     return {
     };
   },
-  components: { AppHeader, Jumbotron, FeaturesHistory, SoilDegradation, BannerCards },
+  components: { AppHeader, Jumbotron, FeaturesHistory, SoilDegradation, BannerCards, Salinity },
   computed: {
     linksData() {
       return links;
@@ -29,6 +30,7 @@ export default {
   <FeaturesHistory></FeaturesHistory>
   <SoilDegradation></SoilDegradation>
   <BannerCards :links="linksData"></BannerCards>
+  <Salinity></Salinity>
 </template>
 
 <style></style>

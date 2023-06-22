@@ -24,3 +24,10 @@ body {
 .container p a {
     color: $info;
 }
+
+.bg_btn {
+    border: 3px solid $info;
+    color: $info;
+    border-radius: 30px;
+    background-color: $bg_body;
+}

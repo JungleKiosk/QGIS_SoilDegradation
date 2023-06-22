@@ -21,6 +21,7 @@ export default {
                     This work aims to define the real problems present in the territory under study:
                     an agricultural area of the coastal plain in Emilia-Romagna, between the provinces of Ravenna and
                     Ferrara, south of the Po Delta. <br>
+                    The data from which the analytical processing was carried out refer to the year 2017. <br>
                     This area has already been involved in a LIFE project (LIFE program 2014-2020), called
                     <a href="https://agricoltura.regione.emilia-romagna.it/pubblicazioni/life-agrowetlands-ii-smart-water-and-soil-salinity-management-in-agro-wetlands"
                         target="_blank">
@@ -31,6 +32,7 @@ export default {
                     Agrisfera, partner of the project itself, developing a Decision Support
                     System, called Smart Agrowetlands, dedicated to the management of irrigation in areas
                     subject to water and soil salinization phenomena. <br>
+                    
 
                 </p>
             </div>
