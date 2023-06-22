@@ -22,7 +22,7 @@ export default {
             url_osm: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
             attribution:
                 '&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-            zoom: 11,
+            zoom: 10,
             center: [44.591181, 12.292782],
             selectedMarker: null
         };
@@ -50,38 +50,42 @@ export default {
   
 <template>
     <div id="app_map" class="container my-3">
-        <div class="row">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-6">
 
-            <l-map style="height: 300px;" :zoom="zoom" :center="center">
-                <l-tile-layer :url="url_osm" :attribution="attribution"></l-tile-layer>
+                <l-map style="height: 300px;" :zoom="zoom" :center="center">
+                    <l-tile-layer :url="url_osm" :attribution="attribution"></l-tile-layer>
 
-                <template v-for="(coordinate, index) in marker_points" :key="index">
-                    <l-marker :lat-lng="[coordinate.lat, coordinate.long]" @click="selectMarker(coordinate)">
-                        <l-tooltip>
-                            <div>
-                                <!-- <p>id: {{ coordinate.id }}</p> -->
-                                <p>{{ coordinate.place }}</p>
-                                <p>{{ coordinate.lat }} , {{ coordinate.long }}</p>
-                            </div>
-                        </l-tooltip>
-                        <l-popup class="popup">
-                            <div>
-                                <!-- <p>id: {{ coordinate.id }}</p> -->
-                                <p class="p-1">Place: {{ coordinate.place }}</p>
-                                <div class="row align-items-center row_images">
-                                    <div class="col-3 img_slider" v-for="(image, imageIndex) in coordinate.img_marker_card"
-                                        :key="imageIndex">
-                                        <img :src="getImagePath(image.img_card)" :alt="image.img_card" class="img-fluid"
-                                            @click="selectImage(image)" />
-                                    </div>
+                    <template v-for="(coordinate, index) in marker_points" :key="index">
+                        <l-marker :lat-lng="[coordinate.lat, coordinate.long]" @click="selectMarker(coordinate)">
+                            <l-tooltip>
+                                <div>
+                                    <!-- <p>id: {{ coordinate.id }}</p> -->
+                                    <p>{{ coordinate.place }}</p>
+                                    <p>{{ coordinate.lat }} , {{ coordinate.long }}</p>
                                 </div>
-                                <img class="p-2 rounded-5" :src="getImagePath(selectedMarker?.img_popup)" alt="img" />
-                                <p class="py-1">Coordinates: {{ coordinate.lat }} , {{ coordinate.long }}</p>
-                            </div>
-                        </l-popup>
-                    </l-marker>
-                </template>
-            </l-map>
+                            </l-tooltip>
+                            <l-popup class="popup">
+                                <div>
+                                    <!-- <p>id: {{ coordinate.id }}</p> -->
+                                    <p class="p-1">Place: {{ coordinate.place }}</p>
+                                    <div class="row align-items-center row_images">
+                                        <div class="col-3 img_slider"
+                                            v-for="(image, imageIndex) in coordinate.img_marker_card" :key="imageIndex">
+                                            <img :src="getImagePath(image.img_card)" :alt="image.img_card" class="img-fluid"
+                                                @click="selectImage(image)" />
+                                        </div>
+                                    </div>
+                                    <img class="p-2 rounded-5" :src="getImagePath(selectedMarker?.img_popup)" alt="img" />
+                                    <p class="py-1">Coordinates: {{ coordinate.lat }} , {{ coordinate.long }}</p>
+                                </div>
+                            </l-popup>
+                        </l-marker>
+                    </template>
+                </l-map>
+            </div>
+
+
 
         </div>
         <!-- /.row -->

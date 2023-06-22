@@ -7,16 +7,18 @@ import Jumbotron from './components/Jumbotron.vue';
 import FeaturesHistory from './components/FeaturesHistory.vue';
 import SoilDegradation from './components/SoilDegradation.vue';
 import BannerCards from './components/BannerCards.vue';
+import MorfClimate from './components/MorfClimate.vue';
 import Salinity from './components/Salinity.vue';
 import Compaction from './components/Compaction.vue';
 import Agronomic from './components/Agronomic.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   data() {
     return {
     };
   },
-  components: { AppHeader, Jumbotron, FeaturesHistory, SoilDegradation, BannerCards, Salinity, Compaction, Agronomic },
+  components: { AppHeader, Jumbotron, FeaturesHistory, SoilDegradation, BannerCards, MorfClimate, Salinity, Compaction, Agronomic, AppFooter },
   computed: {
     linksData() {
       return links;
@@ -32,9 +34,11 @@ export default {
   <FeaturesHistory></FeaturesHistory>
   <SoilDegradation></SoilDegradation>
   <BannerCards :links="linksData"></BannerCards>
+  <MorfClimate></MorfClimate>
   <Salinity></Salinity>
   <Compaction></Compaction>
   <Agronomic></Agronomic>
+  <AppFooter></AppFooter>
 </template>
 
 <style></style>

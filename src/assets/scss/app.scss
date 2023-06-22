@@ -2,11 +2,30 @@
 
 @use "./partials/_variables.scss" as *;
 @use "./partials/_appMap.scss";
+@use "./partials/_footer.scss";
 
 body {
     background-color: $bg_body;
     color: $light;
     font-family: 'Nunito', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $info;
+    height: 123px;
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: $lime;
+}
+
+body::-webkit-scrollbar-track {
+    border-left: 1px solid $dark ;
 }
 
 
