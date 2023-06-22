@@ -26,8 +26,6 @@ export default {
                     Salinity, sodicity, hydromorphy, soil shallowness, compaction and erosion risk are among the edaphic
                     conditions that increase the risk of soil degradation (FAO and ISRIC, 2000).
                 </p>
-
-
             </div>
         </div>
 
