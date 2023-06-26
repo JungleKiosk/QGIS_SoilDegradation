@@ -57,7 +57,7 @@ img {
     width: 100%;
 }
 
-a {
+.title a {
     text-decoration: none;
 }
 

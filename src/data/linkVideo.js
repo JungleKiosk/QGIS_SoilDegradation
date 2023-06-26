@@ -17,5 +17,12 @@ export const links = [
         desc: "",
         video: "https://www.youtube.com/watch?v=o87kN5UJLm4&list=PLR8J_sq3CKNcCeYBUdOFOv8qG9CpqW892&index=2",
     }
+    ,
+    {
+        img: "card_prec.png",
+        title: 'Google ee precipitations',
+        desc: "",
+        video: "https://www.youtube.com/watch?v=rUNIbXNfSMQ&list=PLR8J_sq3CKNdttpmcoIrTVRGoxSIkuXOO",
+    }
 ]
 
