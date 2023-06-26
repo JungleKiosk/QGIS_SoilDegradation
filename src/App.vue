@@ -11,6 +11,7 @@ import MorfClimate from './components/MorfClimate.vue';
 import Salinity from './components/Salinity.vue';
 import Compaction from './components/Compaction.vue';
 import Agronomic from './components/Agronomic.vue';
+import RemoteSensing from './components/RemoteSensing.vue';
 import AppFooter from './components/AppFooter.vue';
 
 export default {
@@ -18,7 +19,7 @@ export default {
     return {
     };
   },
-  components: { AppHeader, Jumbotron, FeaturesHistory, SoilDegradation, BannerCards, MorfClimate, Salinity, Compaction, Agronomic, AppFooter },
+  components: { AppHeader, Jumbotron, FeaturesHistory, SoilDegradation, BannerCards, MorfClimate, Salinity, Compaction, Agronomic, RemoteSensing, AppFooter },
   computed: {
     linksData() {
       return links;
@@ -38,6 +39,7 @@ export default {
   <Salinity></Salinity>
   <Compaction></Compaction>
   <Agronomic></Agronomic>
+  <RemoteSensing></RemoteSensing>
   <AppFooter></AppFooter>
 </template>
 
