@@ -113,7 +113,7 @@ export default {
                     Based on the works of various authors, the average value of K2 varies from &lt; 1% for soils
                     clayey, up to 2.2% for sandy soils. <br>
                     In this case, values are recorded which
-                    even reach 20%. This is because from the maps reported so far we observe a
+                    even reach 17%. This is because from the maps reported so far we observe a
                     very aerated soil (high porosity), with very little SOM and moreover soils
                     constantly processed for agricultural use. <br>
                     In this case, values are recorded which
