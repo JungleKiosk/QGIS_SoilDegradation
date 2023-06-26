@@ -23,6 +23,12 @@ export default {
                     Ferrara, south of the Po Delta. <br>
                     The data from which the analytical processing was carried out refer to the winter 2016 and summer 2017
                     periods. <br>
+                    You will see the use of
+                    <span class="q_qgis">Q</span><span class="gis_qgis">GIS</span>,
+                    <span class="py_python">Py</span><span class="thon_python">thon</span>
+                    and <span class="gee">Google Earth Engine</span>
+                    for the development of zonal analyses,
+                    calculation of cumulative precipitation and vegetation indexes (NDVI and WRDVI). <br>
                     This area has already been involved in a LIFE project (LIFE program 2014-2020), called
                     <a href="https://agricoltura.regione.emilia-romagna.it/pubblicazioni/life-agrowetlands-ii-smart-water-and-soil-salinity-management-in-agro-wetlands"
                         target="_blank">
@@ -33,6 +39,7 @@ export default {
                     Agrisfera, partner of the project itself, developing a Decision Support
                     System, called Smart Agrowetlands, dedicated to the management of irrigation in areas
                     subject to water and soil salinization phenomena. <br>
+
 
 
                 </p>
@@ -65,5 +72,13 @@ export default {
     color: #3da8ff;
     font-weight: bold;
 }
+
+.gee {
+    color: #82c7e7;
+    font-weight: bold;
+}
+
+
+
 </style>
 

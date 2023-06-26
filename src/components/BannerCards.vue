@@ -26,6 +26,7 @@ export default {
                         <h1 class="title text-center p-2">Methods of analysis</h1>
                         <img src="./../assets/img/icons/qgis_logo.png" alt="" class="logo">
                         <img src="./../assets/img/icons/py_logo.svg" alt="" class="logo">
+                        <img src="./../assets/img/icons/gee.svg" alt="" class="logo">
                     </div>
                 </div>
             </div>
