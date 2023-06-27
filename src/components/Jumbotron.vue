@@ -24,9 +24,10 @@ export default {
                     The data from which the analytical processing was carried out refer to the winter 2016 and summer 2017
                     periods. <br>
                     You will see the use of
-                    <span class="q_qgis">Q</span><span class="gis_qgis">GIS</span>,
-                    <span class="py_python">Py</span><span class="thon_python">thon</span>
-                    and <span class="gee">Google Earth Engine</span>
+                    <span class="logo_text">QGIS</span>,
+                    <span class="logo_text">Python</span>
+                    and
+                    <span class="logo_text">Google Earth Engine</span>
                     for the development of zonal analyses,
                     calculation of cumulative precipitation and vegetation indexes (NDVI and WRDVI). <br>
                     This area has already been involved in a LIFE project (LIFE program 2014-2020), called
@@ -53,32 +54,9 @@ export default {
 
 
 <style>
-.q_qgis {
-    color: #ffab1a;
+.logo_text {
     font-weight: bold;
 }
-
-.gis_qgis {
-    color: #bddf41;
-    font-weight: bold;
-}
-
-.py_python {
-    color: #fcd648;
-    font-weight: bold;
-}
-
-.thon_python {
-    color: #3da8ff;
-    font-weight: bold;
-}
-
-.gee {
-    color: #82c7e7;
-    font-weight: bold;
-}
-
-
 
 </style>
 

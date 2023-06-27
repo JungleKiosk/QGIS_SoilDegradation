@@ -19,10 +19,10 @@ export const links = [
     }
     ,
     {
-        img: "card_prec.png",
+        img: "card_prec.jpg",
         title: 'Google ee precipitations',
         desc: "",
-        video: "https://www.youtube.com/watch?v=rUNIbXNfSMQ&list=PLR8J_sq3CKNdttpmcoIrTVRGoxSIkuXOO",
+        video: "https://www.youtube.com/watch?v=sVMdGYv0opY&list=PLR8J_sq3CKNdttpmcoIrTVRGoxSIkuXOO&index=2",
     }
 ]
 

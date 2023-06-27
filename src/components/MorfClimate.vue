@@ -90,7 +90,8 @@ export default {
                     the scarce summer rainfall determine the state of drought.
                     It is noted that in the province of Ravenna, where the study area is located, the precipitation values
                     are the lowest.
-                    Below are the graphs of the average rainfall for each province.
+                    Below are the graphs of the average rainfall for each province. The graphs have been elaborated in
+                    Google Earth Engine environment.
                     <div class="row justify-content-center my-3">
                         <div class="col-12 col-lg-12 col-md-8 zoom_plots">
                             <img class="rounded-3" src="./../assets/img/qgis/prec/winter_plot_region_ER_2016_2017.png"

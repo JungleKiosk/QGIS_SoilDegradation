@@ -58,7 +58,7 @@ img {
     width: 100%;
 }
 
-.title a {
+.link_video a{
     text-decoration: none;
 }
 

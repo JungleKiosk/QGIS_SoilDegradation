@@ -49,7 +49,7 @@ export default {
                     very different factors such as, in our case, from nutritional stress and low vegetable emergence.
                     <br>
                     <div class="row justify-content-center my-3">
-                        <div class="col-12 col-lg-2 col-md-8 ">
+                        <div class="col-3 col-lg-2 col-md-8 ">
                             <a href="https://www.youtube.com/watch?v=Rkpe5xz3rFI&list=PLR8J_sq3CKNdttpmcoIrTVRGoxSIkuXOO&index=2"
                                 target="_blank">
                                 <img class="rounded-3" src="./../assets/img/icons/yt.svg" alt="">
