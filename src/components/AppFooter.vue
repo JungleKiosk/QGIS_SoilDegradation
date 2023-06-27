@@ -60,7 +60,7 @@ export default {
                 <h6 class=" txt_neutral_github bg-dark rounded-pill">visit my <span class="txt_github">GitHub</span></h6>
               </div> -->
               <div class="col-6 col-lg-2 mx-5 col_github">
-                <a href="" target="_blank">
+                <a href="www.linkedin.com/in/francescominutella" target="_blank">
                   <img class="text-center my_contact zoom-effect-contact" src="../assets/img/icons/linkedin_footer.svg"
                     alt="">
                 </a>
@@ -88,4 +88,5 @@ export default {
 
     </section>
 
-</footer></template>
+  </footer>
+</template>
